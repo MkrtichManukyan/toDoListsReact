@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(12, 10, 10, 0.342);
+}
+.App{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.lists-style {
+    max-width: 250px;
+    width: 100%;
+    border-bottom: 1px #EC1B2E solid;
+}
+.task label, .task, .tasks, .display {
+    display: flex;
+    align-items: center;
+}
+.task{
+    justify-content: space-between;
+}
+.lists-style label p {
+    margin-left: 5px;
+}
+.tasks, .display{
+    max-width: 250px;
+    width: 100%;
+}
+.to-do-header{
+    padding: 15px;
+    outline: none;
+    border: none;
+}
+.to-do-add{
+    padding: 15px 12px;
+    border: none;
+    color: white;
+    background-color: #EC1B2E;
+    cursor: pointer;
+    outline: none;
+}
+.footer{
+    padding-top: 25px;
+    background-color: #EC1B2E;
+    color: white;
+    padding: 5px;
+}
+.footer button, .task button{
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #1bec2c;
+    border-radius: 5px;
+}
